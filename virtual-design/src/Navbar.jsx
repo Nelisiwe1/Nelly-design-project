@@ -6,7 +6,8 @@ const Navbar = () => {
   return (
     <nav>
     <div className="Navbar">
-      <span className="nav-logo">TSIN</span>
+      <img className="logo" src='logo.png'/>
+      {/* <span className="nav-logo">TSIN</span> */}
       <div className={`nav-items ${isOpen && "open"}`}>
       <ul>
         <li>
