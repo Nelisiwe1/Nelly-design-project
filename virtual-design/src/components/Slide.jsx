@@ -3,7 +3,7 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // import carousel styles
 import img1 from '../assets/bar.jpg';
 import img2 from '../assets/kitchen.jpg';
-import img3 from '../assets/render.jpg';
+// import img3 from '../assets/render.jpg';
 
 const Slide = () => {
   return (
@@ -16,10 +16,10 @@ const Slide = () => {
         <img src={img2} alt="Kitchen" />
         <p className="legend">Legend 2</p>
       </div>
-      <div>
+      {/* <div>
         <img src={img3} alt="Render" />
         <p className="legend">Legend 3</p>
-      </div>
+      </div> */}
     </Carousel>
   );
 };
